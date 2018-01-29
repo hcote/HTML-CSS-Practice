@@ -1,0 +1,210 @@
+* {
+  font-size: 16px;
+  color: #666666;
+  font-family: 'Lato', sans-serif;
+  /* font-weight: lighter; WHY DOESNT THIS WORK??? */
+}
+
+input, textarea {
+  border: 2px solid #B5B5B5;
+  font-size: .7em;
+  padding: .5em;
+}
+/* why won't this impact the "read more" buttons */
+
+/* HEADER section */
+
+.header-nav {
+  background-color: #FFF;
+  margin: -.5em -.5em 0 -.5em;
+  text-align: center;
+  height: 2.5em;
+}
+
+header > nav > a {
+  text-decoration: none;
+  vertical-align: middle;
+  margin: .5em 5%;
+  color: #B5B5B5;
+  display: inline-block;
+}
+
+.header-image {
+  background-image: url(./monument/images/main-pic.jpg);
+  height: 39em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 -.5em 6em -.5em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+header > div > h1 {
+  color: #FFF;
+  margin-top: 0;
+  padding-top: 8em;
+  font-size: 2em;
+  letter-spacing: .3em;
+}
+
+header > div > h2 {
+  color: #FFF;
+  font-size: 1.1em;
+  letter-spacing: .1em;
+}
+
+/* ARCHIVE section */
+
+.archive-heading {
+  margin-bottom: 2.5em;
+}
+
+.archive-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.archive-flex > div > img {
+  width: 100%;
+} /* This gets the images all on the screen (with no overflow) */
+
+.archive-column-1, .archive-column-2, .archive-column-3 {
+  margin: 0 .5em;
+}
+
+.archive-paragraph-heading {
+  margin: 1em .5em 2em .5em;
+  text-align: center;
+}
+
+.read-more {
+  border: .1em solid black;
+  padding: .3em 1.2em;
+  font-size: .9em;
+}
+
+.archive-form {
+  text-align: center;
+  margin-bottom: 4em;
+  margin-top: 2em;
+}
+
+/* ABOUT THE MAG section */
+.about-the-mag {
+  background-color: #ADD8E6;
+  padding: 6em 10em;
+}
+
+/* MISALIGNED IMAGES section */
+
+.misaligned-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.issue-twenty-header {
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.issue-twenty-sub-header {
+  margin-bottom: 3em;
+}
+
+.misaligned-images > div > img {
+  width: 100%;
+}
+
+.img-column-1 {
+  margin-left: 3em;
+  margin-right: 1.25em;
+}
+
+.img-column-3 {
+  margin-right: 3em;
+  margin-left: 1.25em;
+}
+
+.img-top {
+  margin-bottom: .9em;
+}
+
+/* GET IN TOUCH section */
+
+.get-in-touch-h2 {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.footer-form {
+  text-align: center;
+  margin: 0 3em;
+}
+
+textarea {
+  width: 100%;
+  margin: .65em 0;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.input-name, .input-email, .input-subject {
+  width: 32%;
+  box-sizing: border-box;
+}
+
+.input-name {
+  margin-right: .5em;
+}
+
+.input-email {
+  margin: 0 .25em;
+}
+
+.input-subject {
+  margin-left: .5em;
+}
+ /* FOOTER section*/
+
+ footer > div > img {
+   height: 1.25em;
+   width: 1.25em;
+   margin: 2em .75em;
+ }
+
+ footer > div {
+   text-align: center;
+ }
+
+ footer > form {
+   text-align: center;
+   margin-bottom: 2em;
+ }
+
+.footer-input {
+   padding: .5em 3em .5em 7em;
+ }
+
+ .footer-button {
+   padding: .5em 2em;
+   margin-left: 1.5em;
+ }
+
+footer {
+  background-color: #ADD8E6;
+}
+
+footer > p {
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 1em 0;
+  color: #5C5C5C;
+}

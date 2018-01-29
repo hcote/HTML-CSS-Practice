@@ -41,7 +41,7 @@ h1 {
 }
 
 .header_photo {
-  background: url("./blog_header_bg.jpg");
+  background: url("./images/blog_header_bg.jpg");
   background-size: cover;
   padding: 2em;
   margin-left: -.5em;

@@ -1,0 +1,58 @@
+@media (max-width: 600px) {
+
+/* ARCHIVE section */
+
+  .archive-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .archive-flex > div > img {
+    width: 70%;
+    margin: -1em 15% 0 15%;
+  }
+
+  .read-more {
+    margin-bottom: -1em;
+  }
+
+/* ABOUT THE MAG section */
+  .about-the-mag {
+    padding: 6em 2em;
+  }
+
+/* MISALIGNED IMAGES section */
+
+  .img-column-1 {
+    margin-left: 1em;
+    margin-right: .65em;
+  }
+
+  .img-column-3 {
+    margin-left: .65em;
+    margin-right: 1em;
+  }
+
+  .misaligned-images > div > img {
+    margin-bottom: .25em;
+  }
+
+  /* GET IN TOUCH section */
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input-name, .input-email, .input-subject, textarea {
+    margin: .3em 0;
+    width: 100%;
+  }
+
+   .submit {
+     width: 100%;
+     margin: .3em 0 6em 0;
+     color: #FFF;
+     background-color: #000034;
+   }
+}

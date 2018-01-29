@@ -1,0 +1,48 @@
+@media (max-width: 450px) {
+/* HEADER section */
+  .header-nav {
+    display: none;
+  }
+
+  .header-image {
+    margin-top: -1em;
+    height: 35em;
+  }
+
+  .header-img {
+    /* cant seem to ceter h1 monument */
+  }
+
+  /* FROM THE ARCHIVE */
+
+  .archive-flex > div > img, .archive-flex > div > p {
+    margin: 0 1em;
+    width: 91%;
+  }
+
+  /* ABOUT THE MAG - no updates made */
+
+  /* MISALIGNED IMAGES section */
+
+  
+
+  /* FOOTER */
+
+  footer > form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  .footer-input, .footer-button {
+    box-sizing: border-box;
+    margin: .3em 0;
+    padding: .5em .25em;
+  }
+
+  .footer-button {
+    background-color: #ADD8E6;
+  }
+}
